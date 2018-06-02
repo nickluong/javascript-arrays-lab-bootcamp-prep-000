@@ -30,5 +30,6 @@ function removeLastKitten(){
 }
 
 function removeFirstKitten(){
-  const arr = 
+  const newKittens = [...kittens]
+  return newKittens.pop()
 }
