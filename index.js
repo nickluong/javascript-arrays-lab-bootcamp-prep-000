@@ -16,6 +16,6 @@ function destructivelyRemoveLastKitten(){
   return kittens.pop()
 }
 
-function appendKitten(name){var nKittens = kittens 
-   return kittens.push(name)
+function appendKitten(name){
+   kittens[0] = name
 }
