@@ -17,12 +17,11 @@ function destructivelyRemoveLastKitten(){
 }
 
 function appendKitten(name){
-   return kittens.concat(name)
+   return [...kittens, name]
 }
 
 function prependKitten(name){
-  var arr = [`${name}`]
-  return arr.concat(kittens)
+  return [name, ...kittens]
 }
 
 function removeLastKitten(){
