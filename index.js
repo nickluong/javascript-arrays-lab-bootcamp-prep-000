@@ -24,3 +24,9 @@ function prependKitten(name){
   var arr = [`${name}`]
   return arr.concat(kittens)
 }
+
+function removeLastKitten(){
+  var arr = []
+  arr.concat(kittens)
+  return arr.pop()
+}
