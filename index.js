@@ -1,6 +1,9 @@
 const app = "I don't do much."
 
-function destruct
+function destructivelyRemoveFirstKitten(){
+  return kittens.shift()
+}
+
 function destructivelyAppendKitten(name){
   return kittens.push(name)
 }
