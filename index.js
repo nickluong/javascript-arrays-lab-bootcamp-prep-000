@@ -5,7 +5,7 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function destructivelyAppendKitten(name){
-  return kittens.push(name)
+   kittens.push(name)
 }
 
 function destructivelyPrependKitten(name){
